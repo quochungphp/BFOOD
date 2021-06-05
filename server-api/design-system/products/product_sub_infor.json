@@ -1,0 +1,110 @@
+[
+  {
+    "key" : "",
+    "value": {
+      "headerKey" : "mau#kich-thuoc",
+      "headerValue": "Màu#Kíchthước",
+      "options": [
+          {
+            "parentKey": "mau",
+            "metaValue": "Xanh",
+            "metaOptions": [
+              {
+                "parentKey" : "kich-thuoc",
+                "metaOptionValue" : "M",
+                "metaOptionPrice" : 500,
+                "metaStoreNumber" : 5,
+                "metaSKU" : "xxx-123"
+              },
+              {
+                "parentKey" : "kich-thuoc",
+                "value" : "S",
+                "price" : 500,
+                "store" : "ABC",
+                "sku" : "xxx-123"
+              },
+              {
+                "parentKey" : "kich-thuoc",
+                "value" : "L",
+                "price" : 500,
+                "store" : "ABC",
+                "sku" : "xxx-123"
+              }          
+            ]
+          },
+          {
+            "parentKey": "mau",
+            "metaValue": "Đỏ",
+            "metaOptions": [
+              {
+                "parentKey" : "kich-thuoc",
+                "metaOptionValue" : "M",
+                "metaOptionPrice" : 500,
+                "metaStoreNumber" : 5,
+                "metaSKU" : "xxx-123"
+              },
+              {
+                "parentKey" : "kich-thuoc",
+                "value" : "S",
+                "price" : 500,
+                "store" : "ABC",
+                "sku" : "xxx-123"
+              },
+              {
+                "parentKey" : "kich-thuoc",
+                "value" : "L",
+                "price" : 500,
+                "store" : "ABC",
+                "sku" : "xxx-123"
+              }          
+            ]
+          }               
+        ]
+      },
+    "type" : "option"
+  },
+  {
+    "key" : "",
+    "value": {
+      "options": [
+          {
+            "id" : 123456,
+            "name": "Camera",
+            "value": "8MP"
+          },
+          {
+            "id" : 123456,
+            "name": "Pin",
+            "value": "9AMP"
+          }   
+        ]
+      },
+    "type" : "attribute"
+  }
+]
+// [
+//   {
+//   "key" : "mau#kich-thuoc",
+//   "value": "Màu#Kích thước",
+//   "detail": [
+//     {
+//       "size" : 1, // first element is optional
+//       "price" : 500,
+//       "store" : "ABC",
+//       "sku" : "xxx-123"
+//     },
+//     {
+//       "size" : 2,
+//       "price" : 500,
+//       "store" : "ABC",
+//       "sku" : "xxx-123"
+//     },
+//     {
+//       "size" : 3,
+//       "price" : 500,
+//       "store" : "ABC",
+//       "sku" : "xxx-123"
+//     }
+//   ]
+//   }
+// ]

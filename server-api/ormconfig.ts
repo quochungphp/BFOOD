@@ -7,7 +7,6 @@ import { ConnectionOptions } from 'typeorm';
 // const data: any = dotenv.parse(fs.readFileSync(`${environment}.env`));
 // You can also make a singleton service that load and expose the .env file content.
 // ...
-console.log(__dirname + 'src/modules');
 // Check typeORM documentation for more information.
 const config: ConnectionOptions = {
   type: 'postgres',
